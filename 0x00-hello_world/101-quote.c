@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: using the main function
+ * Description:prints "and that piece of art is useful -Dora Korpar, 2015-10-19"
  * this program prints the string
  * return: Always 1[success]
  */
