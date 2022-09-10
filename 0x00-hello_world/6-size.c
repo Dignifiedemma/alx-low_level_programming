@@ -8,8 +8,8 @@ int main(void)
 * return: 0
 */
 {
-int i;
 char c;
+int i;
 long int li;
 long long int lli;
 float f;
