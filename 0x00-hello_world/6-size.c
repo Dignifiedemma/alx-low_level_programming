@@ -1,5 +1,6 @@
 #include<stdio.h>
-int sizeof
+int sizeof(char,int,long int, long long int,float);
+/* function prototype for sizeof*/
 int main(void)
 /**
 * main - enrty points
