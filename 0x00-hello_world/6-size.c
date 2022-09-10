@@ -12,10 +12,10 @@ char c;
 long int li;
 long long int lli;
 float f;
-printf("The size of an int is: %lu.\n", (unsigned long) Sizeof(i));
-printf("the size of an c is: %lu.\n", (unsigned long) Sizeof(c));
-printf("The size of an li is: %lu.\n", (unsigned long) Sizeof(li));
-printf("The size of an lli is: %lu.\n" (unsigned long) Sizeof(lli));
-printf("The size of an f is: %lu.\n" (unsigned long)Sizeof(f));
-return (0)
+printf("The size of an int is: %d.\n", sizeof(i));
+printf("the size of a char is: %d.\n", sizeof(c));
+printf("The size of a long int is: %d.\n", sizeof(li));
+printf("The size of a long long int is: %d.\n", sizeof(lli));
+printf("The size of a float is: %d.\n", sizeof(f));
+return (0);
 }
