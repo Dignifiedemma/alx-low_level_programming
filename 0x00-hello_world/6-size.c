@@ -1,5 +1,5 @@
 #include<stdio.h>
-int (sizeof);
+int (char, int, long int, long long int, float);
 /* function prototype for sizeof*/
 int main(void)
 /**
