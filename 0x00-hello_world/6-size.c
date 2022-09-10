@@ -1,4 +1,5 @@
 #include<stdio.h>
+int sizeof
 int main(void)
 /**
 * main - enrty points
