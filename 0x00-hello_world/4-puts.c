@@ -1,13 +1,13 @@
 #include<stdio.h>
 /**
- * main - return nothing since no argument
- *
- * description using the main function
- * this program prints "programming is like a multilingual puzzle
- * return 0
+ * main - prints the string in the fucntion put
+ * Description : using the main function
+ * this program prints \"programming is like building a multilingual puzzle
  */
-int main(void)
+int main()
+	//string initialization
+ char hello_puts[] = "Programming is like building a multilingual puzzle
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("hello_puts\n");
 	return (0);
 }
