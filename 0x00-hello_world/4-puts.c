@@ -6,7 +6,7 @@
  */
 int main()
 	//string initialization
- char hello_puts[] = "Programming is like building a multilingual puzzle
+ char hello_puts = "Programming is like building a multilingual puzzle
 {
 	puts("hello_puts\n");
 	return (0);
