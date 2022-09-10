@@ -1,6 +1,4 @@
 #include<stdio.h>
-int (char, int, long int, long long int, float);
-/* function prototype for sizeof*/
 int main(void)
 /**
 * main - enrty points
