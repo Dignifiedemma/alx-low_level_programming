@@ -1,8 +1,9 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * main - prints and that piece of art is useful"- Dora korpar, 2015-10-19
- * return: (1)
+ * Description: using the main function
+ * this program prints the string
+ * return: 1
  */
 int main(void)
 {
