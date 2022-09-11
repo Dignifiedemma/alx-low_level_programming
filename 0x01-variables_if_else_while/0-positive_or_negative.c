@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Description: using the main function
- * thi program prints positive , negative numbers and zero
- * return: 0
- */
+* main - print the type of integer of the random variablr, n
+* Description: using function, main
+* this program prints whther n is positive, nagative ,or zero
+* Return: 0
+*/
 #include <stdlib.h>
 #include <time.h>
 int main(void)
