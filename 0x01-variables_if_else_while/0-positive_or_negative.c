@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints the out put of the string
+ * main - entry point
  * Description: using the main function
- * thi program prints if (number stored in the variable is positive or negative)
+ * thi program prints positive , negative numbers and zero
  * return: 0
  */
 #include <stdlib.h>
