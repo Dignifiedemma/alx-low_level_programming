@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print the alphabet
+ * main - print the lower case alphabet of char  ch
  * Description:using the main function
  * this program prints out the alphabet
  * return: 0
