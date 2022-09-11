@@ -3,7 +3,9 @@
 #include <string.h>
 /**
  * main - Entry point
+ *
  * Description:prints string of the main
+ *
  * return: always return 1
  */
 int main(void)
