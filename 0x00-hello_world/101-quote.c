@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
- *
- * return: always return 1 (success)
- */
+* main - print the string in the write fuction
+*
+* Description: using the main function
+* this program prints and that piece of art is useful\" - Dora Korpar...
+* Return: 1
+*/
 int main(void)
 {
 write(2,
