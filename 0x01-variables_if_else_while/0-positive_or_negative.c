@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/** main - prints the out put of the string
+/**
+ * main - prints the out put of the string
  * Description: using the main function
  * thi program prints if (number stored in the variable is positive or negative)
  * return: 0
  */
+#include <stdlib.h>
+#include <time.h>
 int main(void)
 {
 int n;
