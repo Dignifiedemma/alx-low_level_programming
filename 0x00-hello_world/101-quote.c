@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Description:prints string of the main
- * return: Always 1[success]
+ * return: always return 1
  */
 int main(void)
 {

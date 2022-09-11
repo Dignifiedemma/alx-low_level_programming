@@ -2,10 +2,8 @@
 int main(void)
 /**
 * main - enrty points
-* main - prints the string in the printf function
-* Description: using the main function
-* this program prints sizes of the various data types
-* return: 0
+*
+* Return: always return 0
 */
 {
 
