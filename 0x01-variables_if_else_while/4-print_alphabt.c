@@ -10,6 +10,7 @@ for (a = 'a'; a <= 'z' ; a++)
 {
 if (a != 'q' && a != 'e');
 }
+continue;
 {
 putchar(a);
 }
