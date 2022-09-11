@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
-*  main - entry point
-* Return: alway returns 0
+* main - print the alphabet
+* Description: using the main fuction
+* this prints out the eng alph
+* Return: 0
 */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z' ; a++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (a != 'q' && a != 'e');
+if (ch != 'e' && ch != 'q')
 {
-continue;
+putchar(ch);
 }
-putchar(a);
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
