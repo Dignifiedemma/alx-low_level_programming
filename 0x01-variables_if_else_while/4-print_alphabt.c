@@ -9,9 +9,9 @@ char a;
 for (a = 'a'; a <= 'z' ; a++)
 {
 if (a != 'q' && a != 'e');
-}
-continue;
 {
+continue;
+}
 putchar(a);
 }
 putchar('\n');
