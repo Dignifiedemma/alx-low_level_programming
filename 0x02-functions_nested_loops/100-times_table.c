@@ -16,7 +16,7 @@ if (n >= 0 && n <= 15)
 		for (y = 0; y <= n; y++)
 		{
 			z = x * y;
-			if (z > 99)
+			if (z > 100)
 			{
 				_putchar(',');
 				_putchar(32);
