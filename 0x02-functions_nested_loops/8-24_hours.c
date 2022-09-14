@@ -29,6 +29,5 @@ int mins_remainder;
 		}
 			hours++;
 			minutes = 0;
-	
-	}
+}
 }
