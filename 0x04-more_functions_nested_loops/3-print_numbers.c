@@ -5,7 +5,7 @@
  * print_number - function prints all number from 
  * 0 to 9
  *
- * return: returns void
+ * return: returns nothing
  */
 
 void print_numbers(void)
