@@ -5,9 +5,10 @@
  * left in the year, taking leap years into acount
  * @month: month in number format
  * @dat: day of month
- * @year; year
- * return; void
+ * @year: year
+ * return: void
  */
+
 void print_remaining_days(int month, int day, int year)
 {
 	if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
