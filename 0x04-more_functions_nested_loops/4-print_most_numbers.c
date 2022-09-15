@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_most_numnbers - prints numbers except 2 and 4
+ * print_most_numbers - prints numbers except 2 and 4
  *
  * return; returns nothing
  */
@@ -16,7 +16,7 @@ void print_most_numbers(void)
 		if ((n == 50 ) || (n == 52))
 		{
 			continue;
-		} 
+		}
 		putchar(n);
 	}
 	putchar(10);
