@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_remaninng_days - takes adate and prints how many days are
  * left in the year, taking leap years into acount
