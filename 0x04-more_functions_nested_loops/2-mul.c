@@ -4,7 +4,7 @@
 /**
  * mul - multiplies two numbers
  * @a: first number
- * @d: second number
+ * @b: second number
  * Return: returns result
  */
 
