@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_number - function prints all number from 
+ * print_numbers - function prints all number from 
  * 0 to 9
  *
  * return: returns nothing
