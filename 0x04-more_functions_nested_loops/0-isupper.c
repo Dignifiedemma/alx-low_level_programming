@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * isupper - function checks if a character is uppercase or not
+ * _isupper - function that checks for uppercase character
  * @c: character to be tested
  * return: returns 1 if uppercase and 0 if not
  */
