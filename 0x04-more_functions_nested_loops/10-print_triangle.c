@@ -32,7 +32,7 @@ col++;
 			col = 0;
 			row++;
 			}
-			}	
+			}
 else
 _putchar(10);
 }
