@@ -7,25 +7,55 @@
  */
 
 void print_triangle(int size)
+
 {
-	int inc1, inc2;
-	if (size > 0)
-	{
-		for (inc1 = 1; inc1 <= size; inc1++)
-		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2--)
-			{
-				putchar(' ');
-			}
-			for (inc2 = 0; inc2 < inc1; inc2++)
-			{
-				putchar('#');
-			}
-			if (inc1 == size)
-			{
-				continue;
-			}
-			putchar('\n');
-		}
-	}
+
+		int col = 0;
+
+			int row = 0;
+
+				int t;
+
+
+
+					if (size > 0)
+
+							{
+
+										while (row < size)
+
+													{
+
+																	t = size - row - 1;
+
+																				while (col < size)
+
+																								{
+
+																													if (col < t)
+
+																																			_putchar(32);
+
+																																	else
+
+																																							_putchar(35);
+
+																																					col++;
+
+																																								}
+
+																							_putchar(10);
+
+																										col = 0;
+
+																													row++;
+
+																															}
+
+											}
+
+						else
+
+									_putchar(10);
+
 }
