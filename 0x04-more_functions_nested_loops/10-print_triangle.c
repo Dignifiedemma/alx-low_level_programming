@@ -28,7 +28,7 @@ void print_triangle(int size)
 _putchar(35);
 col++;
 			}
-	_putchar(10
+	_putchar(10);
 			col = 0;
 			row++;
 			}
