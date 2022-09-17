@@ -4,8 +4,9 @@
 * print_number - Prints integer
 *
 * @n: parameter
-* Return: Returns nothing
+* Return: Returns 0
 */
+
 void print_number(int n)
 {
 	unsigned int n2, number, base10 = 1;
@@ -21,8 +22,6 @@ void print_number(int n)
 }
 number = n2;
 
-/* Obtenemos su base */
-
 while (number > 9)
 
 {
@@ -31,8 +30,6 @@ while (number > 9)
 base10 = base10 * 10;
 
 }
-
-/* Descomponemos en base 10*/
 
 number = n2;
 
