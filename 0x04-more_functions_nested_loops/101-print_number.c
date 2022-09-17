@@ -4,6 +4,7 @@
 * print_number - Prints integer
 *
 * @n: parameter
+* Return: Returns nothing
 */
 void print_number(int n)
 {
@@ -41,8 +42,7 @@ while (base10 > 1)
 			_putchar((number / base10) + '0');
 
 					number = number % base10;
-
-							base10 = base10 / 10;
-		}
+					base10 = base10 / 10;
+}
 _putchar((n2 % 10) + '0');
 	}
