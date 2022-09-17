@@ -19,18 +19,29 @@ void print_number(int n)
 	n2 = n;
 }
 number = n2;
+
 /* Obtenemos su base */
+
 while (number > 9)
+
 {
 			number = number / 10;
+
 base10 = base10 * 10;
+
 }
+
 /* Descomponemos en base 10*/
+
 number = n2;
+
 while (base10 > 1)
+
 {
 			_putchar((number / base10) + '0');
+
 					number = number % base10;
+
 							base10 = base10 / 10;
 		}
 _putchar((n2 % 10) + '0');
