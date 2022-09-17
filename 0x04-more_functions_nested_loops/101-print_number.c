@@ -27,7 +27,7 @@ base10 = base10 * 10;
 /* Descomponemos en base 10*/
 number = n2;
 while (base10 > 1)
-{	
+{
 			_putchar((number / base10) + '0');
 					number = number % base10;
 							base10 = base10 / 10;
