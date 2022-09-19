@@ -5,7 +5,7 @@
  * @n: pointer parameter
  * @a: pointer parameter
  * Return: nothing
- */ 
+ */
 void print_array(int *a, int n)
 {
 int i = 0;
