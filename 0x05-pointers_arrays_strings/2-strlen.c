@@ -2,7 +2,7 @@
 /**
  * _strlen - function that returns the length of a string
  * @s: pinter parameter
- * Retrun: return the value of n
+ * Retrun: return the value of result
  */
 int _strlen(char *s)
 
