@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * put_half - function
+ * puts_half - function
  * @str: pointing parameter
  * return: return nothinig
  */
