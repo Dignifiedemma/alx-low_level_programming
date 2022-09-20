@@ -14,8 +14,8 @@ srand(time(NULL));
 
 while (sum <= 2645)
 {
-sum += c;
 c = rand() % 128;
+sum += c;
 putchar(c);
 }
 putchar(2772 - sum);
