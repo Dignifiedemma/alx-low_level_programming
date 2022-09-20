@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-intum;
+int sum;
 
 char c;
 
@@ -22,7 +22,7 @@ sum += c;
 
 putchar(c);
 
-putchar(2772 -um);
+putchar(2772 - sum);
 
 return (0);
 }
