@@ -2,8 +2,7 @@
 /**
  * _strlen - function that returns the length of a string
  * @s: pinter parameter
- *  _strlen - returns the number of bytes in
- * the string pointed to bt s
+ *  Return: length of the string
  */
 int _strlen(char *s)
 
