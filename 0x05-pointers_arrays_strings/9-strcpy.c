@@ -3,7 +3,7 @@
  * *_strcpy - function that copies the string pointed to by src
  * @dest: pointer parameter
  * @src: pointer paramter
- * Retrun:  copies *src into *dest and return the content of *dest
+ * Retrun: the poniter to dest
  */
 char *_strcpy(char *dest, char *src)
 
