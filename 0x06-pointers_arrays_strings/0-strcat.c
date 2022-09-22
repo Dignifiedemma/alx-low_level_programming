@@ -3,7 +3,7 @@
  * _strcat - concatenates the string pointed to by @src to
  * the end of the string pointed to by @dest
  * @dest: string that will be appended
- * @sr: string to be concatenated upon
+ * @src: string to be concatenated upon
  *
  * Return: returns pointer to @dest
  */
@@ -18,6 +18,6 @@ char *_strcat(char *dest, char *src)
 	for (index = 0; src[index]; index++)
 
 		dest[dest_len++] = src[index];
-	
+
 	return (dest);
 }
