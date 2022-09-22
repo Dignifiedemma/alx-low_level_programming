@@ -1,5 +1,6 @@
 #include "main.h"
-#include <stdout.h>
+#include <unistd.h>
+#include <stdio.h>
 /**
  * print_number - prints an integer
  * @n: integer to be printed
