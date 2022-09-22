@@ -5,16 +5,27 @@
  */
 void Print_number(int n)
 {
+	int count = 0, pow = 1;
 	unsigned int num = n;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		num = -num;
+		num = -n;
 	}
-
-	if ((num / 10) > 0)
-		print_number(num / 10);
-
-	_putchar((num % 10) + '0');
+	while (n != 0)
+	{
+		n /= 10;
+		count++;
+	}
+	while (count > 1)
+	{
+		pow *= 10;
+		count--;
+	}
+	while (pow >= 1)
+	{
+		_putchar(num / pow % 10 + '0');
+		pow /= 10;
+	}
 }
