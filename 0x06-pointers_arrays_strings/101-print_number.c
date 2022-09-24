@@ -7,7 +7,27 @@
  */
 void print_number(int n)
 {
-_putchar(n);
+int count = 0, pow = 1;
+unsigned int num = n;
 
-return;
+if (n < 0)
+{
+	_putchar('-');
+	num = -n;
+}
+while (n != 0)
+{
+	n /= 10;
+	count++;
+}
+while (count > 1)
+{
+	pow *= 10;
+	count--;
+}
+while (pow >= 1)
+{
+	_putchar(num / pow % 10 + '0');
+	pow /= 10;
+}
 }
