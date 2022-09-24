@@ -2,32 +2,12 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * print_number - prints an integer
+ * print_number - function that prints an integer
  * @n: integer to be printed
  */
-void Print_number(int n)
+void print_number(int n)
 {
-	int count = 0, pow = 1;
-	unsigned int num = n;
+_putchar(n);
 
-	if (n < 0)
-	{
-		_putchar('-');
-		num = -n;
-	}
-	while (n != 0)
-	{
-		n /= 10;
-		count++;
-	}
-	while (count > 1)
-	{
-		pow *= 10;
-		count--;
-	}
-	while (pow >= 1)
-	{
-		_putchar(num / pow % 10 + '0');
-		pow /= 10;
-	}
+return;
 }
