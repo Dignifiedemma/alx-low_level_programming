@@ -7,10 +7,12 @@
  */
 int factorial(int n)
 {
-	if (n == 1)
-	{
+	int next_factorial;
+
+	if (n < 00)
+		return (-1);
+	else if (n == 0)
 		return (1);
-	}
-			else
-				return (n * factorial(n - 1));
+	next_factorial = factorial(n - 1);
+	return (n * next_factorial);
 }
