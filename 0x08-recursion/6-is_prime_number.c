@@ -28,8 +28,8 @@ int is_prime_number(int n)
 	int start = n / 2;
 
 	if (start <= 1)
-		return (1);
-	else if (n % start == 0)
 		return (0);
+	else if (n % start == 0)
+		return (1);
 	return (is_prime(n, start - 1));
 }
