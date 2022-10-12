@@ -1,24 +1,34 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
 #include <stdio.h>
 #include <stdlib.h>
+#include "3-calc.h"
 /**
- * struct op - Struct op
- * @op: The operator
- * @f: The function associated
+ * main - main function
+ * @argc: argument
+ * @argv: parameter
+ * Return: result of the operation selected
  */
-typedef struct op
+int main(int argc, char *argv[])
 {
-	char *op;
-	int (*f)(int a, int b);
-} op_t;
+int result;
+int (*calculator)(int, int);
 
-int (*get_op_func(char *s))(int, int);
-
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
-
-#endif
+if (argc != 4)
+{
+printf("Error\n");
+exit(98);
+}
+if (argv[2] == NULL || argv[2][1] != '\0')
+{
+printf("Error\n");
+exit(99);
+}
+calculator = get_op_func(argv[2]);
+if (calculator == NULL)
+{
+printf("Error\n");
+exit(99);
+}
+result = calculator(atoi(argv[1]), atoi(argv[3]));
+printf("%d\n", result);
+return (0);
+}
