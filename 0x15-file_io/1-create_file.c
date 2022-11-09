@@ -1,29 +1,36 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * main - function that creates a file
+ * create_file - creates a file
  *
- * Return: always return 0
+ * @filename: path of file
+ *
+ * @text_content: content to be write on new file or truncated on existing
+ *
+ * Return: 1 on Success, -1 on failure
+ *
  */
-int main(void)
+int create_file(const char *filename, char *text_content)
 {
-int n;
-int lastn;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-lastn = n % 10;
-if (lastn > 5)
-{
-printf("Last digit of %d is %d and is greater than 5\n", n, lastn);
-}
-else if (lastn == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, lastn);
-}
-else
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
-}
-return (0);
+	int count, len = 0, fd;
+
+	if (filename == NULL)
+		return (-1);
+/* Open file and get file descriptor */
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	if (fd == -1)
+		return (-1);
+	if (text_content != NULL)
+	{
+		while (text_content[len])
+			len++;
+	}
+/* write into file description */
+	count = write(fd, text_content, len);
+	if (count == -1)
+	{
+		close(fd);
+		return (-1);
+	}
+	close(fd);
+	return (1);
 }
